@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 	    // width of 16 (2 bytes)
         char myChar = '\u00A9';  //Copyright symbol ©
@@ -12,6 +13,7 @@ public class Main {
         // 3. Display in on screen.
 
         char registeredSymbol = '\u00AE'; //Registered symbol ®
+
         System.out.println("Registered symbol = " + registeredSymbol);
     }
 }
