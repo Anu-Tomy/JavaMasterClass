@@ -13,7 +13,6 @@ public class Main {
         // 3. Display in on screen.
 
         char registeredSymbol = '\u00AE'; //Registered symbol ®
-
         System.out.println("Registered symbol = " + registeredSymbol);
     }
 }
