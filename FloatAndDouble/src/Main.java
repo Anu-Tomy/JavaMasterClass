@@ -1,5 +1,4 @@
 public class Main {
-
     public static void main(String[] args) {
         // width of int = 32 (4 bytes)
         int myIntValue = 5 / 3;
