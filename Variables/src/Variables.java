@@ -9,5 +9,4 @@ public class Variables {
 
         System.out.println("Last number: " + myLastNumber);
     }
-
 }
