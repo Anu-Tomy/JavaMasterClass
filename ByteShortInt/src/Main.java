@@ -24,5 +24,4 @@ public class Main {
         System.out.println("LongTotalValue = " + longTotalValue);
         System.out.println("ShortTotalValue = " + shortTotal);
     }
-
 }
