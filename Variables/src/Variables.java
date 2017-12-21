@@ -8,5 +8,6 @@ public class Variables {
         int myLastNumber = 1000 - myTotal;
 
         System.out.println("Last number: " + myLastNumber);
+
     }
 }
