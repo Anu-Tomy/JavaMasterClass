@@ -24,6 +24,5 @@ public class Main {
         double numPounds = 150d;
         double convertedKilograms = numPounds * 0.45359237d;
         System.out.println("Kilograms = " + convertedKilograms);
-
     }
 }
