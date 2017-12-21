@@ -5,8 +5,8 @@ public class Variables {
         int myThirdNumber = myFirstNumber * 2;
 
         int myTotal = myFirstNumber + mySecondNumber + myThirdNumber;
-
         int myLastNumber = 1000 - myTotal;
+
         System.out.println("Last number: " + myLastNumber);
     }
 }
