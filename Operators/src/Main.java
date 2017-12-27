@@ -63,5 +63,23 @@ public class Main {
         boolean wasCar = isCar ? true : false;
         if(wasCar)
             System.out.println("wasCar is true");
+
+        // 1. Create a double variable with the value 20
+        // 2. Create a second variable of type double with the value 80
+        // 3. Add both numbers up and multiply by 25
+        // 4. Use the remainder operator to figure out the remainder from the sum of #3 divided by 40
+        // 5. Write an "if" statement that displays a message "Total was over the limit"
+        //    if the remaining total (#4) is equal to 20 or less.
+
+        double num1 = 20;
+        double num2 = 80;
+        double totalValue = num1 + num2 * 25;
+        System.out.println("Total = " + totalValue);
+
+        double remainder = totalValue % 40;
+        System.out.println("Remainder is " + remainder);
+
+        if(remainder <= 20)
+            System.out.println("Total was over the limit");
     }
 }
