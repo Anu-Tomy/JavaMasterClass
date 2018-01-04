@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d981cf7a-f350-49df-8291-dcbe392b7c02" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ByteShortInt/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../ByteShortInt/src/Main.java" afterPath="$PROJECT_DIR$/../ByteShortInt/src/Main.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HelloWorld/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../Variables/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Variables/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,8 +21,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+            <state relative-caret-position="399">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,9 +67,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane" />
       <pane id="Scratches" />
     </panes>
@@ -151,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513826929466</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Example of Float and Double data types">
+      <created>1513874726327</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1513874726327</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -206,18 +217,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Variables,-Datatypes-and-Operators-Getting-To-Know-Primitive-Data-Types-Float-And-Double-Source-code.zip/FloatAndDouble.iml" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Variables,-Datatypes-and-Operators-Getting-To-Know-Primitive-Data-Types-Float-And-Double-Source-code.zip/src/com/timbuchalka/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="39" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="27" selection-end-column="39" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Variables,-Datatypes-and-Operators-Getting-To-Know-Primitive-Data-Types-Float-And-Double-Source-code.zip/FloatAndDouble.iml" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Temp1_Variables,-Datatypes-and-Operators-Getting-To-Know-Primitive-Data-Types-Float-And-Double-Source-code.zip/src/com/timbuchalka/Main.java" />
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="18" column="70" lean-forward="true" selection-start-line="18" selection-start-column="70" selection-end-line="18" selection-end-column="70" />
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -4,9 +4,6 @@
     <list default="true" id="f47ccb94-c53f-4a28-b749-509be70b34c0" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../ByteShortInt/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ByteShortInt/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../FloatAndDouble/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../FloatAndDouble/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/Hello.java" afterPath="$PROJECT_DIR$/src/Hello.java" />
       <change beforePath="$PROJECT_DIR$/../Variables/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Variables/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -223,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1513897633102</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="First Java program">
+      <created>1513898009062</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1513898009062</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
