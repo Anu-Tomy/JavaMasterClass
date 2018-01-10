@@ -14,6 +14,7 @@ public class HealthyBurger extends Hamburger{
         this.healthyExtra1Name = name;
         this.healthyExtra1Price = price;
     }
+
     public void addHealthyAddition2(String name, double price){
         this.healthyExtra2Name = name;
         this.healthyExtra2Price = price;
@@ -28,7 +29,7 @@ public class HealthyBurger extends Hamburger{
         }
         if(this.healthyExtra2Name != null){
             hamburgerPrice += this.healthyExtra2Price;
-            System.out.println("Added item is " + this.healthyExtra2Name + " for an extra price of " + this.healthyExtra2Name);
+            System.out.println("Added item is " + this.healthyExtra2Name + " for an extra price of " + this.healthyExtra2Price);
         }
         return hamburgerPrice;
 
