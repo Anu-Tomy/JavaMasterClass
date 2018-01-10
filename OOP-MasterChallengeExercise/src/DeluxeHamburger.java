@@ -5,6 +5,7 @@ public class DeluxeHamburger extends Hamburger {
         super.addHamburgerAddition2("Drink", 1.25);
     }
 
+    //prevent other additions to Deluxe hamburger.
     @Override
     public void addHamburgerAddition1(String name, double price) {
         System.out.println("Cannot add additional items to a deluxe burger");
