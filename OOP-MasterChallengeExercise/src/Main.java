@@ -8,7 +8,7 @@ public class Main {
         // We want to create a base hamburger, but also two other types of hamburgers that are popular ones in
         // Bills store.
         // The basic hamburger should have the following items.
-        // bread roll type, meat and up to 4 additional additions (things like lettuce, tomato, carrot, etc) that
+        // Name, bread roll type, meat and up to 4 additional additions (things like lettuce, tomato, carrot, etc) that
         // the customer can select to be added to the burger. Each one of these items gets charged an additional
         // price so you need some way to track how many items got added and to calculate the price (for the base
         // burger and all the additions).
@@ -46,12 +46,6 @@ public class Main {
 
         //test for prevent other additions
         deluxeHamburger.addHamburgerAddition1("bacon", 3.50); //Cannot add additional items to a deluxe burger
-
-
-
-
-
-
 
     }
 }
