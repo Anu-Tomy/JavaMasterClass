@@ -47,5 +47,16 @@ public class Main {
         //test for prevent other additions
         deluxeHamburger.addHamburgerAddition1("bacon", 3.50); //Cannot add additional items to a deluxe burger
 
+        DoubleDeluxeHamburger doubleDeluxeHamburger = new DoubleDeluxeHamburger("Beef",2.99);
+        doubleDeluxeHamburger.addDoubleDeluxeExtra("Beef",4.99);
+        doubleDeluxeHamburger.addHamburgerAddition1("Tomato", 0.25);
+        doubleDeluxeHamburger.addHamburgerAddition2("Lettuce", 0.54);
+        doubleDeluxeHamburger.addHamburgerAddition3("Cheese", 1.25);
+
+
+        System.out.println("Total price of Double Deluxe Hamburger is " + String.format("%.2f",doubleDeluxeHamburger.additionalPriceOfHamburger()));
+
+
+
     }
 }

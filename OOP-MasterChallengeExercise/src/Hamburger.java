@@ -46,7 +46,7 @@ public class Hamburger {
     public double additionalPriceOfHamburger(){
         double additionalPrice = this.price;
         System.out.println(this.name + " hamburger on a " + this.breadRollType +
-                " roll with " + this.meat + ". Price is " + this.price);
+                " roll with " + this.meat + ", Price is " + this.price);
         if(this.addition1Name != null){
             additionalPrice += this.addition1Price;
             System.out.println("Added item is " + this.addition1Name +
