@@ -30,9 +30,9 @@ public class MobilePhone {
     }
 
     public boolean removeContact(Contact contact){
-        int foundPosition = findContact(Contact);
+        int foundPosition = findContact(contact);
         if(foundPosition < 0){
-            System.out.println(Contact.getName() + ", was not found");
+            System.out.println(contact.getName() + ", was not found");
             return false;
         }
         this.myContacts.remove(foundPosition);
@@ -54,7 +54,7 @@ public class MobilePhone {
         return -1;
     }
 
-    public String querycontact(Contact contact){
+    public String queryContact(Contact contact){
         if(findContact(contact) >= 0){
             return contact.getName();
         }
@@ -72,9 +72,7 @@ public class MobilePhone {
     public void printContacts(){
         System.out.println("Contact List");
         for(int i =0; i < this.myContacts.size(); i++){
-            System.out.println(i+1) + "." + this.myContacts.get(i).getName() + " -->"+
-            this.myContacts.get(i).getPhoneNumber();
+            System.out.println((i+1) + "." + this.myContacts.get(i).getName() + " -->" + this.myContacts.get(i).getPhoneNumber());
         }
     }
-
 }
