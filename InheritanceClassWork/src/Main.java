@@ -9,6 +9,5 @@ public class Main {
         newCredit.paymentMade(100.00);
 
         newAccount.withdrawal(100);
-
     }
 }
