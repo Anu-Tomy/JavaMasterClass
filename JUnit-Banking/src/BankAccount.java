@@ -43,6 +43,5 @@ public class BankAccount {
             return accountType == CHECKING;
         }
 
-
     }
 

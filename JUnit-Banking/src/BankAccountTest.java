@@ -32,10 +32,13 @@ public class BankAccountTest {
         double balance = account.withdraw(600.00, true);
         assertEquals(400.00,balance, 0);
     }
-    @org.junit.Test(expected = IllegalArgumentException.class)
+    @org.junit.Test //(expected = IllegalArgumentException.class)
     public void withdraw_notBranch() throws Exception {
-        double balance = account.withdraw(600.00, false);
-        assertEquals(400.00,balance, 0);
+        try{
+            account.withdraw(600.00, false);
+        }catch (IllegalArgumentException e){
+            
+        }
     }
 
     @org.junit.Test
