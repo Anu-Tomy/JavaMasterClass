@@ -37,7 +37,7 @@ public class BankAccountTest {
         try{
             account.withdraw(600.00, false);
         }catch (IllegalArgumentException e){
-            
+
         }
     }
 
@@ -59,6 +59,10 @@ public class BankAccountTest {
     @org.junit.AfterClass
     public static void afterClass(){
         System.out.println("This executes after any test cases. Count = " + count++);
+    }
+    @org.junit.After
+    public void teardown() {
+        System.out.println("Count = " + count++);
     }
 
 }
