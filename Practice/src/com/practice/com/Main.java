@@ -2,35 +2,58 @@ package com.practice.com;
 //www.udacity.com Object Oriented Programming in Java
 
 class Contact {
-    String name;
-    String email;
-    String phoneNumber;
+    private String name;
+    private String email;
+    private String phoneNumber;
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
 }
 class ContactsManager {
     //Fields
-    Contact[] myFriends;
-    int friendsCount;
+    private Contact[] myFriends;
+    private int friendsCount;
 
     //Constructor
-    ContactsManager() {
+    public ContactsManager() {
         this.myFriends = new Contact[500];
         this.friendsCount = 0;
     }
     //Methods
-    void addContact(Contact contact){
+    public void addContact(Contact contact){
         myFriends[friendsCount] = contact;
         friendsCount++;
     }
-    Contact searchContact(String searchName){
+    public Contact searchContact(String searchName){
         for(int i = 0; i < friendsCount; i++) {
-            if (myFriends[i].name.equals(searchName)) {
+            if (myFriends[i].getName().equals(searchName)) {
                 return myFriends[i];
             }
         }
         return null;
         }
     }
-
 
 public class Main {
 
@@ -41,33 +64,29 @@ public class Main {
         //Create a new Contact object for Tom
         Contact tomContact = new Contact();
         // Set the fields
-        tomContact.name = "Tom";
-        tomContact.phoneNumber = "12345";
+        tomContact.setName("Tom");
+        tomContact.setPhoneNumber("12345");
         //Add Tom's contact to the ContactsManager
         myContactsManager.addContact(tomContact);
 
         Contact edContact = new Contact();
-        edContact.name = "Edwin";
-        edContact.phoneNumber = "6789";
+        edContact.setName("Edwin");
+        edContact.setPhoneNumber("6789");
         myContactsManager.addContact(edContact);
 
         Contact colContact = new Contact();
-        colContact.name = "Colin";
-        colContact.phoneNumber = "23456";
+        colContact.setName("Colin");
+        colContact.setPhoneNumber("23456");
         myContactsManager.addContact(colContact);
 
         Contact momContact = new Contact();
-        momContact.name = "Mom";
-        momContact.phoneNumber = "5678";
+        momContact.setName("Mom");
+        momContact.setPhoneNumber("5678");
         myContactsManager.addContact(momContact);
 
         //Search for a contact and display their phone number
         Contact result = myContactsManager.searchContact("Mom");
-        System.out.println(result.phoneNumber);
-
-
-
-
+        System.out.println(result.getPhoneNumber());
 
     }
 }
